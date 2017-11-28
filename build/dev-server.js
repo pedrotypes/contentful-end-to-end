@@ -84,8 +84,8 @@ devMiddleware.waitUntilValid(() => {
 })
 
 var options = {
-  key: fs.readFileSync('../ssl/private.key'),
-  cert: fs.readFileSync('../ssl/certificate.pem')
+  key: fs.readFileSync('./ssl/private.key'),
+  cert: fs.readFileSync('./ssl/certificate.pem')
 };
 var secureServer = https.createServer(options, app).listen(port);
 
