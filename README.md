@@ -2,18 +2,26 @@
 
 Support materials for the Contentful "End to End" onboarding session.
 
-## Build Setup
+## Dev setup
 
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:3000
 npm run dev
+```
 
+## How to deploy
+
+This is being deployed at [surge.sh](https://surge.sh) right now.  
+Tweak the `surge.sh` script to use your own surge subdomain.
+
+```bash
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# deploy
+./surge.sh
 ```
+
