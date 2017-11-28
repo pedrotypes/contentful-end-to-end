@@ -7,7 +7,7 @@ import Space from '@/components/Space'
 Vue.use(Router)
 
 var router = new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: [
     // Auth and space selection
     {
