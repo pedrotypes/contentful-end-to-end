@@ -68,7 +68,7 @@
         <div class="panel-body">
           <dl>
             <dt>NAME:</dt>
-            <dd><code>Your nice name</code></dd>
+            <dd><code>{{ user.firstName }} - Tutorial Webhook</code></dd>
 
             <dt>URL:</dt>
             <dd><code>https://6ajny5opo2.execute-api.us-east-1.amazonaws.com/production/logging</code></dd>
