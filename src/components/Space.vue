@@ -52,6 +52,17 @@
 
       <div class="panel panel-default">
         <div class="panel-heading">
+          <h3 class="panel-title">Single page application</h3>
+        </div>
+        <div class="panel-body">
+          <a href="http://contentful-labs.github.io/product-catalogue-web.ts" target="_blank">
+            http://contentful-labs.github.io/product-catalogue-web.ts
+          </a>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
           <h3 class="panel-title">Setup webhook</h3>
         </div>
         <div class="panel-body">
